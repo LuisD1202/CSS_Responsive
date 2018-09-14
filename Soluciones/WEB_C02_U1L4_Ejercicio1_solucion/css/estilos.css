@@ -14,6 +14,7 @@ body {
 
 #menu-principal a:hover {
 	text-decoration: underline;
+	text-transform:uppercase;
 }
 
 #menu-principal a + a::before {
