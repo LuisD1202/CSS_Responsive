@@ -19,7 +19,7 @@ body
 #menu-principal a + a::before
 {
 content: " | ";
-color: black;
+color: white;
 }
 footer
 {
