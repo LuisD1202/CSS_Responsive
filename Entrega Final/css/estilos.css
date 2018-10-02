@@ -1,25 +1,96 @@
-body {
-	font-family: Indie Flower;
+body
+{
+	font-family: Dancing Script;
+	background-color: #02010a;
 }
 
-.container {
+header{
+	color: white;
+	width: 100%;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header h1{
+	padding-left: 10px;
+	text-shadow: 2px 2px 2px #02010a;
+}
+nav{
+	padding-right: 10px;
+}
+nav a{
+	color: white;
+  text-decoration: none;
+	margin: 2px 2px;
+	padding-bottom:10px;
+}
+nav a + a::before{
+	content: " | ";
+	color: white;
+}
+
+#principal
+{
+	background: #82c3a6;
+	text-align: center;
+	padding: 20px 20px;
+}
+#principal img{
+	width: 85%;
+}
+#second
+{
+	background: #d5c75f;
+	text-align: center;
+	border: 1px;
+}
+
+.footer
+{
+	background-color: #C6d5c5;
+	padding: 10px;
+	border-radius: 0px 0px 10px 1 0px;
+}
+/*
+
+.container
+{
 	margin: 0;
 	padding: 0;
 	width: 100%;
 }
 
-.container div {
+.container div
+{
 	box-sizing: border-box;
 	min-width: 150px;
 	padding: 20px;
 }
 
-.c1 {
+
+
+.body
+{
 	color: black;
-	background-color: #E6EBE0;
+	width: 100%;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+
 }
 
-.c2 {
+
+/*
+.header h1
+{
+	text-align: left;
+	color: white;
+	text-shadow: 2px 2px #02010a;
+}
+
+/*.c2 {
 	color: black;
 	background-color: #F4F1BB;
 }
@@ -74,4 +145,4 @@ width: 800px;
 margin-left: auto;
 margin-right: auto;
 }
-}
+}*/
