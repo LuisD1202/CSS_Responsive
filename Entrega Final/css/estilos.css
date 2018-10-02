@@ -1,9 +1,7 @@
-body
-{
+body{
 	font-family: Dancing Script;
 	background-color: #02010a;
 }
-
 header{
 	color: white;
 	width: 100%;
@@ -64,121 +62,39 @@ nav a + a::before{
 	to
 	{transform: rotate(10deg);}
 }
-#paisajes:hover{
+#paisajes img:hover{
 	animation-name: rotate;
 	animation-duration: 2s;
 }
 
-@keyframes Retratos
-{
+@keyframes Retratos{
 	from
 	{transform: translate(0px,0px);}
 	to
 	{transform: translate(20px,-5px);}
 }
-
-#Retratos:hover
-{
+#Retratos img:hover{
+	box-shadow: 2px 2px 2px #82c3a6;
 	animation-name: Retratos;
 	animation-duration: 2s;
+
 }
 
-.footer
-{
+footer{
 	background-color: #C6d5c5;
-	padding: 10px;
-	border-radius: 0px 0px 10px 1 0px;
-}
-/*
-
-.container
-{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.container div
-{
-	box-sizing: border-box;
-	min-width: 150px;
-	padding: 20px;
-}
-
-
-
-.body
-{
-	color: black;
-	width: 100%;
-	background-color: #5b7989;
-	border-radius: 10px 10px 0px 0px;
-	padding: 10px;
-
-}
-
-
-/*
-.header h1
-{
-	text-align: left;
-	color: white;
-	text-shadow: 2px 2px #02010a;
-}
-
-/*.c2 {
-	color: black;
-	background-color: #F4F1BB;
-}
-
-.c3 {
-	color: black;
-	background-color: #9BC1BC;
-}
-
-.c4 {
-	color: black;
-	background-color: #36C9C6;
-}
-
-.c5 {
-	color: white;
-	background-color: #ED6A5A;
-}
-
-.container {
-	display: -webkit-flex;
+	padding: 2% 1% 2% 1%;
+	border-radius: 0px 0px 10px 10px;
 	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
+	flex-direction: row;
+	justify-content: center;
+	font-weight:bold;
+	font-size: 20px;
 }
-
-.c1, .c2, .c3, .c4, .c5 {
-width: 100%;
+footer div{
+	padding: 1%;
+	width: 24%;
 }
-
-@media (min-width: 600px) {
-.c2, .c3, .c4, .c5 {
-width: 50%;
+footer img{
+	max-width: 10%;
+	padding: 1%;
 }
-}
-
-@media (min-width: 800px) {
-.c1 {
-width: 100%;
-}
-
-.c2 {
-width: 100%;
-}
-
-.c3, .c4, .c5 {
-width: 33.33%;
-}
-
-.container {
-width: 800px;
-margin-left: auto;
-margin-right: auto;
-}
-}*/
